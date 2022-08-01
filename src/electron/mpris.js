@@ -6,7 +6,7 @@ export function createMpris(window) {
 
   const player = Player({
     name: 'yesplaymusic',
-    identity: 'YesPlayMusic',
+    identity: '张子的Music',
   });
 
   player.on('next', () => renderer.send('next'));
